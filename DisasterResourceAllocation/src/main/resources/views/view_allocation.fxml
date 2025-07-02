@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="440.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/22.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.htech.disasterproject.controllers.ViewAllocationController">
+    <children>
+        <ImageView fitHeight="92.0" fitWidth="415.0" layoutX="18.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/blue-dash.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="homeIcon" fitHeight="29.0" fitWidth="20.0" layoutX="64.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/home-white.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="151.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Families" />
+        <ImageView fx:id="familyIcon" fitHeight="29.0" fitWidth="20.0" layoutX="162.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/families.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="resourceIcon" fitHeight="29.0" fitWidth="20.0" layoutX="257.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/resources.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="340.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allocation" />
+        <ImageView fx:id="allocationIcon" fitHeight="29.0" fitWidth="20.0" layoutX="357.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/allocation-yellow.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="242.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resources" />
+        <Text fill="WHITE" layoutX="57.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+        <Pane layoutX="-3.0" prefHeight="74.0" prefWidth="446.0" style="-fx-background-color: #110D65;">
+            <children>
+                <Text fill="WHITE" layoutX="23.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allocation">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Text>
+            <ImageView fx:id="settingsIcon" fitHeight="21.0" fitWidth="32.0" layoutX="388.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/settings.png" />
+               </image>
+            </ImageView>
+            </children>
+        </Pane>
+      <Text layoutX="84.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Make sure all information are up-to-date before proceeding" textAlignment="CENTER" wrappingWidth="297.8999671936035">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="runBtn" layoutX="149.0" layoutY="251.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="152.0" style="-fx-background-radius: 20px; -fx-background-color: white; -fx-border-color: #110D65; -fx-padding: 10 20; -fx-border-radius: 20px;" text="Run Allocation">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fx:id="top_header_allocation" layoutX="77.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Running Allocation" textAlignment="CENTER" wrappingWidth="297.8999671936035">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <PieChart fx:id="allocationPieChart" layoutX="36.0" layoutY="304.0" maxWidth="400.0" prefHeight="290.0" prefWidth="380.0" title="Resources Allocation " />
+      <Label fx:id="totalFamiliesLabel" layoutX="29.0" layoutY="187.0" prefHeight="18.0" prefWidth="248.0" />
+      <Label fx:id="totalResourcesLabel" layoutX="29.0" layoutY="220.0" prefHeight="18.0" prefWidth="248.0" />
+      <Button fx:id="downloadReportBtn" layoutX="335.0" layoutY="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="94.0" style="-fx-background-radius: 20px; -fx-background-color: white; -fx-border-color: #110D65; -fx-padding: 10 20; -fx-border-radius: 20px;" text="Report">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="cardPane" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="160.0" spacing="8.0" style="-fx-background-color: #110D65; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/22.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.htech.disasterproject.controllers.ResourceCardController">
+    <children>
+        <ImageView fx:id="resourceImageView" fitHeight="80.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/placeholder.png" />
+            </image>
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+        </ImageView>
+        <Label fx:id="nameLabel" text="Rice (5kg)" textFill="#e1ff00">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Label fx:id="importanceLabel" text="Importance: 5" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="stockLabel" text="In Stock: 20" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="5.0" right="5.0" top="5.0" />
+    </padding>
+</VBox>

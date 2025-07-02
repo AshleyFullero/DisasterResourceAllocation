@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="440.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.htech.disasterproject.controllers.ViewResourcesController">
+    <children>
+        <ImageView fitHeight="92.0" fitWidth="415.0" layoutX="18.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/blue-dash.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="homeIcon" fitHeight="29.0" fitWidth="20.0" layoutX="64.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/home-white.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="151.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Families" />
+        <ImageView fx:id="familyIcon" fitHeight="29.0" fitWidth="20.0" layoutX="162.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/families.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="resourceIcon" fitHeight="29.0" fitWidth="20.0" layoutX="257.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/resources-yellow.png" />
+            </image>
+        </ImageView>
+        <Text fill="#e1ff00" layoutX="242.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resources" />
+        <ImageView fx:id="allocationIcon" fitHeight="29.0" fitWidth="20.0" layoutX="357.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/allocation.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="340.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allocation" />
+        <Text fill="WHITE" layoutX="57.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+        <Pane layoutX="-3.0" prefHeight="74.0" prefWidth="446.0" style="-fx-background-color: #110D65;">
+            <children>
+                <Text fill="WHITE" layoutX="23.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resources">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+      <TextField fx:id="searchField" layoutX="65.0" layoutY="114.0" prefHeight="26.0" prefWidth="321.0" promptText="Search...." style="-fx-background-radius: 20px;">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <ImageView fitHeight="57.0" fitWidth="20.0" layoutX="355.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/search.png" />
+         </image>
+      </ImageView>
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="44.0" layoutY="165.0" prefHeight="411.0" prefWidth="358.0" style="-fx-background-color: transparent;">
+         <content>
+            <VBox fx:id="ResourcesVBox" prefHeight="410.0" prefWidth="345.0" style="-fx-background-color: transparent;" />
+         </content>
+      </ScrollPane>
+      <Text fill="#e1ff00" layoutX="329.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a Resource" />
+      <Button fx:id="addResourceBtn" layoutX="412.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="48.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/add_circle.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/22.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.htech.disasterproject.controllers.ContinueControllerTwo">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="440.0" pickOnBounds="true">
+         <image>
+            <Image url="@../infoImages/Info%20%232.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="continueBtn" layoutX="65.0" layoutY="608.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="302.0" style="-fx-background-color: transparent; -fx-background-radius: 20px;" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="440.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.htech.disasterproject.controllers.EditFamilyController">
+    <children>
+        <Text layoutX="136.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAMILY Dela Cruz">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Text>
+        <ImageView fx:id="iconUpload" fitHeight="61.0" fitWidth="66.0" layoutX="190.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/add-family-icon.png" />
+            </image>
+        </ImageView>
+        <Text layoutX="145.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Members">
+            <font>
+                <Font name="Candara Light" size="22.0" />
+            </font>
+        </Text>
+        <Button fx:id="deleteBtn" layoutX="61.0" layoutY="563.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="91.0" style="-fx-background-radius: 20px; -fx-background-color: #110D65;" text="Delete" textFill="WHITE" />
+        <ImageView fitHeight="92.0" fitWidth="415.0" layoutX="18.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/blue-dash.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="homeIcon" fitHeight="29.0" fitWidth="20.0" layoutX="64.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/home-white.png" />
+            </image>
+        </ImageView>
+        <Text fill="#f2ff03" layoutX="151.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Families" />
+        <ImageView fx:id="familyIcon" fitHeight="29.0" fitWidth="20.0" layoutX="162.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/families-face.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="resourceIcon" fitHeight="29.0" fitWidth="20.0" layoutX="257.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/resources.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="244.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resources" />
+        <ImageView fx:id="allocationIcon" fitHeight="29.0" fitWidth="20.0" layoutX="357.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/allocation.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="340.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allocation" />
+        <Text fill="WHITE" layoutX="57.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+        <Pane prefHeight="74.0" prefWidth="446.0" style="-fx-background-color: #110D65;">
+            <children>
+                <Text fill="WHITE" layoutX="32.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Families">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Text>
+                <Text fill="#e1ff00" layoutX="312.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit a Family" />
+            </children>
+        </Pane>
+
+        <Spinner fx:id="familySizeSpinner" editable="true" layoutX="99.0" layoutY="388.0" prefHeight="26.0" prefWidth="282.0" />
+
+        <TextField fx:id="familyNameTextField" layoutX="98.0" layoutY="221.0" prefHeight="26.0" prefWidth="282.0" promptText="Family Name" style="-fx-background-radius: 20px;" />
+        <TextField fx:id="familyAddressTextField" layoutX="97.0" layoutY="264.0" prefHeight="26.0" prefWidth="282.0" promptText="Address" style="-fx-background-radius: 20px;" />
+        <TextField fx:id="contactTextField" layoutX="98.0" layoutY="306.0" prefHeight="26.0" prefWidth="282.0" promptText="Notes" style="-fx-background-radius: 20px;" />
+        <Button fx:id="saveBtn" layoutX="273.0" layoutY="567.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="152.0" style="-fx-background-radius: 20px; -fx-background-color: white; -fx-border-color: #110D65; -fx-padding: 10 20; -fx-border-radius: 20px;" text="Confirm and Save" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('fonts/LeagueSpartan-VariableFont_wght.ttf');
+}
+.root{
+    -fx-background-color: linear-gradient(to bottom, #5d9ce4, #2A1B7B);
+    -fx-font-family: "League Spartan","Poppins","Fira Code";
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+
+}
+
+.back{
+    -fx-background-color: linear-gradient(to bottom, #073e85, #2A1B7B);
+    -fx-font-family: "League Spartan","Poppins","Fira Code";
+    -fx-font-style: normal;
+    -fx-font-weight: bold;
+
+}
+
+.label{
+    -fx-background-radius: 20px;
+    -fx-text-fill:  white;
+    -fx-font-weight: bold;
+
+}
+
+
+.heading{
+    -fx-font-size: 62px;
+    -fx-text-fill:  white;
+    -fx-font-weight: bold;
+
+}
+
+
+.bold {
+    -fx-font-family: 'League Spartan';
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+}
+
+.email-field{
+    -fx-background-color: #F1ECE6;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #686363;
+
+}
+
+.register-button{
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #686363;
+    -fx-border-color: #800100;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 10px;
+    -fx-font-size: 14px;
+}
+
+.register-button:hover {
+    -fx-background-color: #FFBFFF;
+    -fx-text-fill: black;
+    -fx-border-color: #911639;
+}
+
+
+.vbox {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0.5, 0, 4);
+}
+
+.register-btn {
+    -fx-background-color: linear-gradient(to right, #0f0436, #251170);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-padding: 10 10;
+}
+
+.register-btn:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #251170;
+    -fx-border-color: #4B36A7;
+}
+
+.login-btn {
+    -fx-background-color: linear-gradient(to right, #0f0436, #251170);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 30px;
+    -fx-effect: innershadow(gaussian, #0d0330, 10, 0.5, 2, 2);
+    -fx-padding: 10 20;
+    -fx-border-width: 2px;
+
+}
+
+.login-btn:hover {
+    -fx-background-color: linear-gradient(to right, #5d9ce4, #251170);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-padding: 10 10;
+}
+
+
+.password-field {
+    -fx-background-color: linear-gradient(to right, #605c99, #847cb6);
+    -fx-background-radius: 15px;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-padding: 8 12 5 40;
+}
+

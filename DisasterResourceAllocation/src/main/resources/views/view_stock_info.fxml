@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="440.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/22.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.AddFamily">
+    <children>
+        <ImageView fitHeight="92.0" fitWidth="415.0" layoutX="18.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/blue-dash.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="homeIcon" fitHeight="29.0" fitWidth="20.0" layoutX="64.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/home-white.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="151.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Families" />
+        <ImageView fx:id="familyIcon" fitHeight="29.0" fitWidth="20.0" layoutX="162.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/families.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="resourceIcon" fitHeight="29.0" fitWidth="20.0" layoutX="257.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/resources-yellow.png" />
+            </image>
+        </ImageView>
+        <Text fill="#e1ff00" layoutX="242.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resources" />
+        <ImageView fx:id="allocationIcon" fitHeight="29.0" fitWidth="20.0" layoutX="357.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icons/allocation.png" />
+            </image>
+        </ImageView>
+        <Text fill="WHITE" layoutX="340.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Allocation" />
+        <Text fill="WHITE" layoutX="57.0" layoutY="665.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+        <Text layoutX="89.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Importance:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Text layoutX="88.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In Stock:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Pane layoutX="-3.0" prefHeight="74.0" prefWidth="446.0" style="-fx-background-color: #110D65;">
+            <children>
+                <Text fill="WHITE" layoutX="23.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resources">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+      <Text layoutX="87.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="87.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notes:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="330.0" layoutX="62.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/resource-addition.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="185.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rice ( 5 Kg )">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
