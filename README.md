@@ -25,8 +25,6 @@ The algorithm is based on the **Greedy heuristic solution to the 0/1 Knapsack Pr
 - Families are assigned scores based on configurable **priority metrics** (e.g., size, vulnerability, special needs).
 - The algorithm sorts items or families based on **value-to-weight ratio** and greedily allocates resources accordingly until the knapsack (relief supply limit) is full.
 
-This approach does **not always yield the optimal solution**, but it ensures **speed, scalability, and simplicity**—ideal for real-time disaster response.
-
 ---
 
 ## ⚙️ Features
