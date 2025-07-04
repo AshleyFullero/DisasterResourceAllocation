@@ -38,8 +38,8 @@ The algorithm is based on the **Greedy heuristic solution to the 0/1 Knapsack Pr
 ## 💻 Installation
 
 ```bash
-git clone https://github.com/AshleyFullero/DisasterAllocation.git
-cd DisasterAllocation
+git clone https://github.com/AshleyFullero/DisasterResourceAllocation.git
+cd DisasterResourceAllocation
 ```
 
 ## 🚀 Usage
