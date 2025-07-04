@@ -27,6 +27,30 @@ The algorithm is based on the **Greedy heuristic solution to the 0/1 Knapsack Pr
 
 ---
 
+### Algorithm Steps:
+1. Gather household data and total available resources.
+2. Sort families based on priority metric (e.g., size or urgency).
+3. Allocate resources greedily from highest to lowest priority.
+4. Stop when no more resources can be allocated.
+
+---
+
+## 💻 Installation
+
+```bash
+git clone https://github.com/AshleyFullero/DisasterAllocation.git
+cd DisasterAllocation
+```
+
+## 🚀 Usage
+
+1. Prepare or input the list of families and available resources.
+2. Run the program.
+3. View the results in the output JavaFX table.
+4. Visualize allocations and priorities via color-coding.
+
+---
+
 ## ⚙️ Features
 
 - 📋 Configurable household and resource data
