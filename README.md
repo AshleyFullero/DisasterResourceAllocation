@@ -32,7 +32,7 @@ The algorithm is based on the **Greedy heuristic solution to the 0/1 Knapsack Pr
 - 📋 Configurable household and resource data
 - 🔍 Greedy heuristic allocation based on value-to-weight ratio
 - 🧮 Custom priority scoring per family
-- 📊 JavaFX UI (optional) for visualization
+- 📊 JavaFX UI for visualization
 - ✅ Fast and practical for field deployment
 
 
